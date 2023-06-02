@@ -1,0 +1,57 @@
+body  {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-dark {
+    background: rgb(0,212,255);
+    background: linear-gradient(100deg, rgba(0,212,255,1) 0%, rgba(131,128,182,1) 15%, rgba(0,212,255,1) 100%);
+}
+
+.logo {
+    width: 50px;
+}
+
+nav ul {
+    margin-top: 25px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 5px 35px 5px 35px;  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.columna-1 div,
+.columna-2 div {
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    background-color: #3e7ca0;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+ }
+
+footer h3{
+    margin-left: 25px;
+    font-size: 25px;
+    color: #ffffff;
+ }
+
+ footer .contacts a img{
+    margin-left: 10px;
+    height: 45px;
+    width: 45px;    
+ }

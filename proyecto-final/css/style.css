@@ -1,0 +1,149 @@
+body  {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-dark {
+    background: rgb(0,212,255);
+    background: linear-gradient(100deg, rgba(0,212,255,1) 0%, rgba(131,128,182,1) 15%, rgba(0,212,255,1) 100%);
+}
+
+.logo {
+    width: 50px;
+}
+
+nav ul {
+    margin-top: 25px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 5px 35px 5px 35px;  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.featured-image h1 {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-family: 'Bungee Inline', cursive;
+    color: #ffffff;
+    background: rgb(0,212,255);
+    background: linear-gradient(100deg, rgba(0,212,255,1) 0%, rgba(131,128,182,1) 15%, rgba(0,212,255,1) 100%);
+}
+
+.featured-image img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery h2 {
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+
+.gallery h2 a {
+    text-decoration: none;
+    color: #3e7ca0;
+    font-size: 18px;
+}
+
+.members {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.members div {
+    width: 100%;
+    border: 5px solid rgb(147,183,219);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.members div a {
+   display: block;
+    text-align: center;
+   text-decoration: none;
+   font-size: 25px;
+   color: #3e7ca0;
+}
+
+.videos .video1 iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.videos .video2 iframe {
+    width: 50%;
+    float: left;
+}
+
+.videos .video2 div {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.videos .video2 div p {
+    width: 50%;
+    float: left;
+}
+
+.buy-tickets {
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.buy-tickets div {
+    width: 100%;
+    border: 5px solid rgb(147,183,219);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.buy-tickets div a {
+   display: block;
+    text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+   color: #3e7ca0;
+}
+
+.match-image-tickets {
+   padding-bottom: 15px;
+ }
+
+footer {
+    background: rgb(0,212,255);
+    background: linear-gradient(100deg, rgba(0,212,255,1) 0%, rgba(131,128,182,1) 15%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+ }
+
+footer h3{
+    margin-left: 25px;
+    font-size: 25px;
+    color: #ffffff;
+ }
+
+ footer .contacts a img{
+    margin-left: 10px;
+    height: 45px;
+    width: 45px;    
+ }
+ 
